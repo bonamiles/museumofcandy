@@ -1,0 +1,64 @@
+body
+{
+    background-color: #f5d9df;
+    font-family: "Nunito";
+}
+
+#navstuff li a
+{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+#navstuff li a:hover
+{
+    color: #EA1C2C;
+}
+
+#mainnav .navbar-brand
+{
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #EA1C2C;
+}
+#xtext h1
+{ 
+    color: white; 
+    font-weight: 100;
+    font-size: 4rem;
+}
+#xtext span
+{
+    color: #EA1C22;
+}
+
+@media (max-width:1200px)
+{
+    #xtext h1
+    {
+        font-size: 3rem;
+    }
+}
+    
+.row-m
+{
+    margin-bottom: 200px;
+}
+
+#candytext h2
+{
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+#candytext p
+{
+    color: #df8289;
+    font-weight: 30;
+    
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
